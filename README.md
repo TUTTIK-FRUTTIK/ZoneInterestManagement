@@ -8,12 +8,10 @@
 
 2\) just install archive of this repo and move scripts in your Unity project!
 
-
-
 ## How to use
 
 1. Set **ZoneInterestManagement** component on NetworkManager object
-2. Create GameObject&#x20;
+2. Create GameObject
 3. Add Rigidbody component on this object
 4. Add collider component and set checkbox _isTrigger_
 5. After, add **NetworkZone** or **NetworkZone2D** component on this object
@@ -30,6 +28,8 @@ Suppose we have a Dust2 card. On it, we will arrange Trigger colliders so that t
 
 How could this help? At a minimum, I think it would reduce the requirements for gateway bandwidth. But the most important thing is protection from a cheat also referred to as "WallHack". If the attacker does not receive packets about updating the opponent's position behind the wall, then, accordingly, he will not be able to calculate it behind the wall.
 
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
 ### Let's now try it out with an example
 
 Let's create a simple map and arrange the colliders in it so that the players can see each other without obstacles, but so that the obstacle prevents them from seeing each other
@@ -39,5 +39,3 @@ Let's create a simple map and arrange the colliders in it so that the players ca
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Lets go test this!
-
-
